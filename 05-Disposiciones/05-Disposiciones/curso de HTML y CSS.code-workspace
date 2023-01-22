@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "curso de HTML y CSS",
+			"path": ".."
+		},
+		{
+			"name": "Aprende javaScript, ES9, html y Node JS",
+			"path": "../../Aprende javaScript, ES9, html y Node JS"
+		},
+		{
+			"name": "pagina web",
+			"path": "../../pagina web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "curso de HTML y CSS"
+	}
+}
