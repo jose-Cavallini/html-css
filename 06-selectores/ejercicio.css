@@ -1,0 +1,17 @@
+.boton{
+    display:flex ;
+    content: "dsad";
+}
+
+.boton:hover{
+    color: rgb(240, 255, 246);
+    background-color: rgb(49, 231, 107);
+    content: "hecho";
+    
+}
+.boton::before{
+    content: "pasa por encima";
+}
+.boton:hover::before{
+    content: "--hecho--";
+}
