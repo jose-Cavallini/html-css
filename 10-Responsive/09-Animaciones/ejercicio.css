@@ -1,0 +1,135 @@
+/*
+.content{
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows: repeat(4 , 2rem);
+}
+*/
+*{
+    margin: 0%;
+}
+.content{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    background-color: blanchedalmond;
+}
+.seccion1{
+    background-color: rgb(46, 41, 41);
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0.5em;
+    flex-grow: 1;
+    
+}
+.seccion2{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 30;
+}
+h3{
+    color: brown;
+    font-size: xx-large;
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+h3:hover{
+    color: rgb(219, 56, 56);
+    background-color: rgb(37, 33, 33);
+    
+    text-align: center;
+    border-radius: 1em;
+    opacity: 0.9;
+    box-shadow: 0px 0px 5px rgb(84, 65, 65);
+}
+
+.sb-seccion1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.Elemento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: larger;
+    background-color: rgb(88, 83, 83);
+    width: 8rem;
+    height: 3em;
+    border: 1px solid; 
+    border-radius: 0.2em;
+    
+    transition: 300ms; 
+}
+.Elemento:hover{
+    opacity: 0.9;
+    box-shadow: 0px 0px 5px ;
+
+}
+ 
+@media (min-width: 840px) {
+    .content{
+        flex-direction: row;
+    }
+    .seccion1{
+        flex-direction: column;
+        justify-content:flex-start;
+        height: 100%;
+        padding: 1em;
+        flex-grow: 1;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5em;
+        color: brown;
+        font-size: xx-large;
+    }
+    h3:hover{
+        width: 100%;
+    }
+    .sb-seccion1{
+        
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+        width: 100%;
+        height: 70%;
+    }
+    .Elemento{
+        display: flex;
+        flex-direction: none;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        font-size: larger;
+        background-color: rgb(88, 83, 83);
+        width: 90%;
+        height: 3em;
+        border: 1px solid; 
+        border-radius: 0.2em;
+        
+        transition: 300ms; 
+    }
+    .seccion2{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 5;
+    }
+}
+
