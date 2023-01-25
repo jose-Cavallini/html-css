@@ -6,11 +6,13 @@
     background-color: blue;
     display: flex;
     color: aliceblue;
+    transition: 400ms;
     
 }
 .btn-modern:hover{
     background-color: rgb(61, 56, 153);
     transform: translateY(5px);
-    transition: 400ms;
+    
     color: rgb(0, 0, 0);
+    box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
 }
