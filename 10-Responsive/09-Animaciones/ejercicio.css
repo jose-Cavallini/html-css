@@ -78,7 +78,7 @@ h3:hover{
 
 }
  
-@media (min-width: 840px) {
+@media (min-width: 640px) {
     .content{
         flex-direction: row;
     }
